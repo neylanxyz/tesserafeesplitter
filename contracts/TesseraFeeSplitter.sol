@@ -39,7 +39,7 @@ contract TesseraFeeSplitter is AccessControl, ReentrancyGuard {
         require(_devs != address(0), "devs=0");
         require(_publisherBps + _devsBps == 10000, "bps sum != 10000");
 
-        token = IERC20(token);
+        token = IERC20(_token);
 
         publisher = _publisher;
         devs = _devs;
@@ -89,6 +89,17 @@ contract TesseraFeeSplitter is AccessControl, ReentrancyGuard {
         require(token.transfer(msg.sender, bal), "withdraw fail");
 
         emit EmergencyWithdraw(msg.sender, bal);
+    }
+
+    /**
+     * @notice Check contract's balance
+     */
+    function getBalance() 
+        public 
+        view 
+        returns (uint256) 
+    {
+        return token.balanceOf(address(this));
     }
          
 }

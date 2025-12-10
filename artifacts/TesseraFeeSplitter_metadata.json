@@ -299,6 +299,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "bytes32",
@@ -509,6 +522,9 @@
 				},
 				"emergencyWithdraw()": {
 					"notice": "Admin can emergency withdraw"
+				},
+				"getBalance()": {
+					"notice": "Check contract's balance"
 				}
 			},
 			"version": 1
@@ -587,11 +603,11 @@
 			]
 		},
 		"contracts/TesseraFeeSplitter.sol": {
-			"keccak256": "0x1ffd19d34b981b74643fdedc1b531ac35c28800926cb22eae1d3c742e47a2885",
+			"keccak256": "0x9e2b0c834442f79d06e274c741fd3e5255c2197d006229ee631299e5a4642e29",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://24489c3f1d00e9384cd20c86d644f4aa95926aed97ca00ab26ea51c1754cc315",
-				"dweb:/ipfs/QmTwdQqZ8mvJUdBbSbKxmJS3sbEfs6tKm5TQ7u7qUaJ6ko"
+				"bzz-raw://17ca1e747984a0c88bb97be689d8590508f6817da3351089918a4caa3239a102",
+				"dweb:/ipfs/QmPapwV28TVcJ71QPXQyaftCx1GAqSHQbWUGEhHLKqiEzH"
 			]
 		}
 	},

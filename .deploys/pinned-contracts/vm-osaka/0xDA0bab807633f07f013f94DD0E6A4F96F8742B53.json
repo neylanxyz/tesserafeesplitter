@@ -1,0 +1,66 @@
+{
+  "name": "FeeSplitterFactory",
+  "address": "0xDA0bab807633f07f013f94DD0E6A4F96F8742B53",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "publisher",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "devs",
+          "type": "address"
+        },
+        {
+          "internalType": "uint16",
+          "name": "publisherBps",
+          "type": "uint16"
+        },
+        {
+          "internalType": "uint16",
+          "name": "devsBps",
+          "type": "uint16"
+        }
+      ],
+      "name": "createSplitter",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "splitter",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "creator",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "splitter",
+          "type": "address"
+        }
+      ],
+      "name": "SplitterCreated",
+      "type": "event"
+    }
+  ],
+  "filePath": "TesseraFeeSplitter/contracts/TesseraFeeSplitterFactory.sol",
+  "pinnedAt": 1765391540305
+}
