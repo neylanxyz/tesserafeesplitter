@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 import "./TesseraFeeSplitter.sol";
 
-contract FeeSplitterFactory {
+contract TesseraFeeSplitterFactory {
     event SplitterCreated(address indexed creator, address splitter);
 
     /**

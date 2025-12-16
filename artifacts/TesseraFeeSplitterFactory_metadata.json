@@ -94,7 +94,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/TesseraFeeSplitterFactory.sol": "FeeSplitterFactory"
+			"contracts/TesseraFeeSplitterFactory.sol": "TesseraFeeSplitterFactory"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -165,19 +165,19 @@
 			]
 		},
 		"contracts/TesseraFeeSplitter.sol": {
-			"keccak256": "0x9e2b0c834442f79d06e274c741fd3e5255c2197d006229ee631299e5a4642e29",
+			"keccak256": "0xa3d3a8bb062e8b6af75f988f72a9c8c658657fc0d6a07ceae4cd28e90e97e45d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://17ca1e747984a0c88bb97be689d8590508f6817da3351089918a4caa3239a102",
-				"dweb:/ipfs/QmPapwV28TVcJ71QPXQyaftCx1GAqSHQbWUGEhHLKqiEzH"
+				"bzz-raw://e2912d879bf4997efeec1febb2db2d8255a0c248e2cd776ab4dcd1f4625e00b0",
+				"dweb:/ipfs/QmWNb3wooZsp6U3b5v1FBhixDdfQgVQ51qSLUZ67eT5Era"
 			]
 		},
 		"contracts/TesseraFeeSplitterFactory.sol": {
-			"keccak256": "0xf7dc779ad54cac3f0399c934c6aaec71a1f18cf85a4f8b32f2da555ffc6299cb",
+			"keccak256": "0x7bea201b568c24cb6e0b8db066e63f55019b157af9ca48fd73eb45716098c26e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0b8d27e3609c4aec0cb0c269fa1ca331341734ef4767e7576f6cdf481672aa8c",
-				"dweb:/ipfs/QmaHXbTAkEVVY4E3GK8vUfs9NxEVbQSjCjfjPnecsszUvU"
+				"bzz-raw://24c8e6cfafc8cfc452b5457f56dc4d009c7ab23c9c1ccb31a40c2f1ca25cd828",
+				"dweb:/ipfs/QmNxNabLHRVgq78WebPzdYBSR661zBuoRDx37zvSjfwuvr"
 			]
 		}
 	},

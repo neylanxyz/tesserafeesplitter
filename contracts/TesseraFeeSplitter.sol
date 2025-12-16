@@ -38,6 +38,7 @@ contract TesseraFeeSplitter is AccessControl, ReentrancyGuard {
         require(_publisher != address(0), "pub=0");
         require(_devs != address(0), "devs=0");
         require(_publisherBps + _devsBps == 10000, "bps sum != 10000");
+        require(_publisher != _devs, "devs=pub");
 
         token = IERC20(_token);
 
